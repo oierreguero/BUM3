@@ -11,7 +11,7 @@ import java.io.IOException;
  * JavaFX App
  */
 
-public class MainWin extends Application {
+public class TableUI extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("primary.fxml"));
